@@ -19,7 +19,7 @@ cout << "\n" << "Vote for Actors: ";
 
 if (a==1){
 	cout << " your vote goes to  Varun Dhawan \n";
-}
+}    
 if (a==2){
 	cout << " your vote goes to Shidarth Malhothra \n";
 }
@@ -28,11 +28,23 @@ if (a==3){
 }
 if (a==4){
 	cout << " your vote goes to Sahid Kapoor \n";
-}
+} 
+
 
 cout<<"\n\n"  << " press 1 for voting the actor \n" << " press 2 for see the best actor \n" << " press 3 for exit \n";
  cout << "\n" << "enter your key: ";
+ 
+
+cout << a << "  is the best actor \n";
+ 
+  cout<<"\n\n"  << " press 1 for voting the actor \n" << " press 2 for see the best actor \n" << " press 3 for exit \n";
+ cout << "\n" << "enter your key: ";
  cin >> a;
+
+  
+  if (a==3){
+  	cout << "exit";
+  }
 
    return 0;
 }
