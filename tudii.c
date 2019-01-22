@@ -14,7 +14,7 @@ int a;
  cin >> a;
   cout <<"\n\n"<< " 1. Varun Dhawan \n" << " 2. Shidarth Malhothra \n" << " 3. Ranbeer Shingh \n" << " 4. Sahid Kapoor \n";
 
-cout << "\n" << "enter your key: ";
+cout << "\n" << "Vote for Actors: ";
  cin >> a;
 
 if (a==1){
