@@ -8,14 +8,14 @@ int a , b;
  cin >> n;
  cin >> s;
 
-while (1);
+while (1)
 {
  cout << " chooes one optin \n" << " press 1 for voting the actor \n" << " press 2 for see the best actor \n" << " press 3 for exit \n";
  cout << "\n" << "enter your key: ";
  cin >> a;
-  cout <<"\n\n"<< " 1. Varun Dhawan \n" << " 2. Shidarth Malhothra \n" << " 3. Ranbeer Shingh \n" << " 4. Sahid Kapoor \n";
+   cout <<"\n\n"<< " 1. Varun Dhawan \n" << " 2. Shidarth Malhothra \n" << " 3. Ranbeer Shingh \n" << " 4. Sahid Kapoor \n";
 
-cout << "\n" << "Vote for Actors: ";
+ cout << "\n" << "Vote for Actors: ";
  cin >> b;
 
 if (b == 1){
@@ -30,15 +30,15 @@ if (b == 3){
 if (b == 4){
 	cout << " your vote goes to Sahid Kapoor \n";
 } 
-
-break;
+if (a==2){
+  	cout <<   "  is the best actor \n";
 }
-
-  if (a==3){
-  	cout << "exit\n";
-
-  }
-   
+if (a==3){
+  	cout << "exit \n" ;
+} 
+break;
+  
+}
 
 
    return 0;
