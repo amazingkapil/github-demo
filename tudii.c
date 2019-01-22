@@ -42,7 +42,7 @@ cout << a << "  is the best actor \n";
  cin >> a;
   
   if (a==3){
-  	cout << "exit";
+  	cout << "exit\n";
   }
    break;
 }
