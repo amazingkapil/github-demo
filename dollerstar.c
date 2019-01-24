@@ -10,52 +10,53 @@ cout << " enter your value: ";
 cin >> c;
 
 if (c == 1){
-
-cout << "give two values: " ;
-
-
- 
-    
-
-   
-	cin >>a >> b;
-for (int i = a ; i <= b; ++i)
-{
- 
-
+	cout << "give two values: " ;
+    cin >>a >> b;
+for (int i = a ; i <= b; ++i){
  if (i%2==0){                     
-		cout <<"\n"<< " * ";
+        cout <<"\n"<< " * ";
 	}
 	else 
 	 	cout << "\n" << " $ ";
-	
-}    
-   
+ }    
     cout <<"\n";
     
 }
 
-
 if (c == 2)
  {
-cout << "give  values: " ;
-
-	
-		cin >> a >> b >> d >> e;
-   for (int i = a; i = b ;++i)
- 
-
- if (i%2==0){                     
+  cout << "give  values: " ;
+  cin >> a >> b >> d >> e;
+   
+if (a%2==0){                     
 		cout <<"\n"<< " * ";
 	}
 	else
 	 	cout << "\n" << " $ ";
 	
-	cout <<"\n";
+if (b%2==0){                     
+		cout <<"\n"<< " * ";
+	}
+	else
+	 	cout << "\n" << " $ ";
+		
+if (d%2==0){                     
+		cout <<"\n"<< " * ";
+	}
+	else
+	 	cout << "\n" << " $ ";
+	
+if (e%2==0){                     
+		cout <<"\n"<< " * ";
+	}
+	else
+	 	cout << "\n" << " $ ";
+	
+        cout <<"\n";
     
     break;
 
- }
-
+ 
+}
 }
 }
