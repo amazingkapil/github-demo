@@ -1,8 +1,8 @@
-# include <iostream>
+# include <bits/stdc++.h>
 using namespace std;
 int main()
 {
-int a,b,c ;
+int a,b,c,j;
   cout <<"Enter first  value: ";
   cin >> a;
   cout <<"Enter 2nd value: ";
@@ -16,12 +16,12 @@ int a,b,c ;
       
     }
   cout <<"*\n";
-  
-  /* 1st */ 
-  
+    
+  /* 1st */
+  if(c- j){ 
   for(int i = 1; i <= a; i++) {
 
-    for (int j = 1; j <= a-i ; ++j)
+    for (int j = 1; j <= c-i ; ++j)
     {
        cout<<" ";
     }
@@ -32,22 +32,24 @@ int a,b,c ;
     }
     cout<<"\n";
      }
+   }
 
      /* 2nd */
-
+   
      for(int i = 1; i <= b; i++) {
 
-    for (int j = 1; j <= b-i ; ++j)
+    for (int j = 1; j <= c-i ; ++j)
     {
        cout<<" ";
     }
 
-    for (int j = 1; j <= 2*i ; ++j)
+    for (int j  = 1; j <= 2*i ; ++j)
     {
        cout<<"*";
     }
     cout<<"\n";
      }
+   
 
     /* 3rd */ 
     
@@ -63,6 +65,7 @@ int a,b,c ;
     }
         cout<<"\n";
     }
+   
     for(int i = c; i - 1; i = i - 1){
       cout<<" ";
     }
