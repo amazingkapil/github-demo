@@ -1,25 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-int a;
-cout<<"Enter a number : ";
-cin>>a;
+  int n;
+  cout<<"Enter a number: ";
+  cin>>n;
 
-for(int i=1; i<=a; i++){
+  for (int a = 1; a <= n; a++){
+    for (int b = 1; b <= a; b++){
+      cout << b ;
+    }
+cout <<"\n";
+  }
 
-for(int j=1; j<=a; j++){
+  return 0;
+}
 
-if(i==1 , i==a)
-cout<<"* ";
-else{
- if(j==1 , j==a)
- cout<<"* ";
-else
-cout<<" "; 
- }
-}
-cout<<"\n";
-}
-return 0;
-}
+
